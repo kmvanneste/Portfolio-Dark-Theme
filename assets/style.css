@@ -1,8 +1,12 @@
+.navbar {
+    background: linear-gradient(90deg, #54626f, #6699cc, #a1caf1, #6699cc, #54626f);
+}
+
+
 .jumbotron {
-    margin: 10px;
     align-items: center;
     background-image: url(Laptop_Photo.jpg);
-    background-size: cover;
+    height: 300px;
     color: ghostwhite;
 }
 
@@ -12,8 +16,14 @@ body {
 }
 
 h1 {
-    margin: 10px;
-    font-size: 16pt;
+    margin: 20px;
+    font-size: 20pt;
+    text-align: left;
+}
+
+.photoOfKristen {
+    height: 250px;
+    width: 250px;
 }
 
 p {
