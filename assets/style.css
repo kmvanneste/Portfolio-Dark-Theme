@@ -1,0 +1,17 @@
+.jumbotron {
+    margin: 10px;
+    align-items: center;
+    background-image: url(Laptop_Photo.jpg);
+    background-size: cover;
+    color: ghostwhite;
+}
+
+body {
+    background-color: black;
+    color: ghostwhite;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 16pt;
+}
