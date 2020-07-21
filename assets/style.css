@@ -7,6 +7,7 @@
     background-image: url(Laptop_Photo.jpg);
     height: auto;
     color: ghostwhite;
+    text-emphasis: emphasis;
 }
 
 body {
@@ -21,8 +22,9 @@ h1 {
 }
 
 .photoOfKristen {
-    height: 250px;
-    width: 250px;
+    height: 300px;
+    width: 300px;
+    align-content: inherit;
 }
 
 p {
@@ -43,4 +45,9 @@ p {
 .btn {
     background-color: black;
     color: ghostwhite;
+}
+
+.contact_card {
+    height: 850px;
+    width: 500px;
 }
