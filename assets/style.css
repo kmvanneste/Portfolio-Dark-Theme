@@ -4,10 +4,11 @@
 
 .jumbotron {
     align-items: center;
-    background-image: url(Laptop_Photo.jpg);
-    height: auto;
+    background-image: url(IMG_1366.JPG); 
+    background-size: 100% 180%;
     color: ghostwhite;
     text-emphasis: emphasis;
+    height: 350px;
 }
 
 body {
