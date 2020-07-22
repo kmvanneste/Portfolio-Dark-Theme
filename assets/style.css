@@ -4,18 +4,26 @@
 
 .jumbotron {
     align-items: center;
-    background-image: url(IMG_1366.JPG); 
-    background-size: 100% 190%;
+    background-image: url(Marble_photo_1.jpg); 
+    /* background-size: 120% 200%; */
     overflow: hidden;
     color: ghostwhite;
     text-emphasis: emphasis;
-    height: 350px;
+    /* height: auto; */
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
 }
 
-#marblePhoto {
+/* #marblePhoto {
     display: block;
     width: 100%;
     margin: -30% 0;
+} */
+
+.jumboSubTitle {
+    margin-top: -10px;
 }
 
 body {
@@ -29,9 +37,8 @@ h1 {
 }
 
 #aboutMe {
-    margin: 20px;
     font-size: 20pt;
-    /* text-indent: 10%; */
+    margin-left: 45px;
 }
 
 .photoOfKristen {
@@ -53,7 +60,7 @@ p {
 }
 
 .card-img-top {
-    height: 200px;
+    height: 205px;
 }
 
 .btn {
@@ -63,7 +70,7 @@ p {
 
 .contact_card {
     height: 850px;
-    /* width: 500px; */
     margin: 0 auto;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
