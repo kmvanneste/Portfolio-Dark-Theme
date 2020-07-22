@@ -1,10 +1,10 @@
 .navbar {
-    background: linear-gradient(90deg, #54626f, #6699cc, #a1caf1, #6699cc, #54626f);
+    background: linear-gradient(90deg, black, #6699cc, #a1caf1, #6699cc, black);
 }
 
 .jumbotron {
     align-items: center;
-    background-image: url(Marble_photo_1.jpg); 
+    background-image: url(marble_photo_1_crop.jpg); 
     /* background-size: 120% 200%; */
     overflow: hidden;
     color: ghostwhite;
@@ -22,6 +22,10 @@
     margin: -30% 0;
 } */
 
+.jumboTitle {
+    margin-top: -50px;
+}
+
 .jumboSubTitle {
     margin-top: -10px;
 }
@@ -38,7 +42,7 @@ h1 {
 
 #aboutMe {
     font-size: 20pt;
-    margin-left: 45px;
+    margin-left: 50px;
 }
 
 .photoOfKristen {
@@ -66,6 +70,7 @@ p {
 .btn {
     background-color: black;
     color: ghostwhite;
+    border: black;
 }
 
 .contact_card {
