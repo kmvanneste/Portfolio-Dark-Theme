@@ -5,10 +5,17 @@
 .jumbotron {
     align-items: center;
     background-image: url(IMG_1366.JPG); 
-    background-size: 100% 180%;
+    background-size: 100% 190%;
+    overflow: hidden;
     color: ghostwhite;
     text-emphasis: emphasis;
     height: 350px;
+}
+
+#marblePhoto {
+    display: block;
+    width: 100%;
+    margin: -30% 0;
 }
 
 body {
@@ -19,13 +26,19 @@ body {
 h1 {
     margin: 20px;
     font-size: 20pt;
-    text-align: left;
+}
+
+#aboutMe {
+    margin: 20px;
+    font-size: 20pt;
+    /* text-indent: 10%; */
 }
 
 .photoOfKristen {
     height: 300px;
     width: 300px;
     align-content: inherit;
+    float: right;
 }
 
 p {
@@ -50,5 +63,7 @@ p {
 
 .contact_card {
     height: 850px;
-    width: 500px;
+    /* width: 500px; */
+    margin: 0 auto;
+    margin-top: 2rem;
 }
