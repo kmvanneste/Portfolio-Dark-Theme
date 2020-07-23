@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Mulish', sans-serif;
     font-size: larger;
 }
 
@@ -23,10 +23,12 @@ body {
 
 .jumboTitle {
     margin-top: -25px;
+    font-size: larger;
 }
 
 .jumboSubTitle {
     margin-top: -10px;
+    font-size: larger;
 }
 
 body {
