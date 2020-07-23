@@ -1,5 +1,6 @@
 body {
-    font-family: 'Libre Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: larger;
 }
 
 .navbar {
@@ -60,6 +61,7 @@ p {
     margin-bottom: 30px;
     background-color: #ebecf0;
     height: 400px;
+    font-size: smaller;
 }
 
 .card-img-top {
