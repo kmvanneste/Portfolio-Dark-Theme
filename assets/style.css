@@ -1,3 +1,7 @@
+body {
+    font-family: 'Libre Baskerville', 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+}
+
 .navbar {
     background: linear-gradient(90deg, black, #6699cc, #a1caf1, #6699cc, black);
 }
@@ -16,14 +20,8 @@
     background-size: 100% 100%;
 }
 
-/* #marblePhoto {
-    display: block;
-    width: 100%;
-    margin: -30% 0;
-} */
-
 .jumboTitle {
-    margin-top: -50px;
+    margin-top: -25px;
 }
 
 .jumboSubTitle {
@@ -59,6 +57,7 @@ p {
 .card {
     color: black;
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: #ebecf0;
     height: 400px;
 }
@@ -78,4 +77,14 @@ p {
     margin: 0 auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+.footer {
+    background: linear-gradient(90deg, black, #6699cc, #a1caf1, #6699cc, black);
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: ghostwhite;
+    text-align: center;
 }
