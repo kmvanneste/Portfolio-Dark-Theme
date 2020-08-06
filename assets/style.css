@@ -19,13 +19,13 @@ body {
 }
 
 .navbar-brand {
-    font-size: 20pt;
+    font-size: 18pt;
     margin-left: 8px;
     padding: 5px;
 }
 
-.nav-item {
-    padding: 7px;
+.navbar-nav {
+    padding: 20px;
 }
 
 .jumbotron {
