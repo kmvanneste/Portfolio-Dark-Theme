@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Mulish', sans-serif;
     font-size: larger;
@@ -5,30 +13,52 @@ body {
 
 .navbar {
     background: linear-gradient(90deg, black, #6699cc, #a1caf1, #6699cc, black);
+    height: 50px;
+    font-size: 13pt;
+    padding: 5px;
+}
+
+.navbar-brand {
+    font-size: 20pt;
+    margin-left: 8px;
+    padding: 5px;
+}
+
+.nav-item {
+    padding: 7px;
 }
 
 .jumbotron {
     align-items: center;
-    background-image: url(marble_photo_1_crop.jpg); 
-    /* background-size: 120% 200%; */
+    background-image: url(IMG_1525\ copy_crop.jpg); 
+    background-size: cover;
     overflow: hidden;
     color: ghostwhite;
+    text-shadow: 0 0 5px black, 0 0 5px black, 0 0 5px black;
     text-emphasis: emphasis;
+    background-repeat: no-repeat;
+    background-position: right;
     /* height: auto; */
-    -webkit-background-size: 100% 100%;
+    /* -webkit-background-size: 100% 100%;
     -moz-background-size: 100% 100%;
     -o-background-size: 100% 100%;
-    background-size: 100% 100%;
+    background-size: 100% 100%; */
 }
 
 .jumboTitle {
-    margin-top: -25px;
+    margin-top: 55px;
+    margin-left: 300px;
     font-size: larger;
+    text-align: justify;
+    text-align-last: right;
 }
 
 .jumboSubTitle {
     margin-top: -10px;
+    margin-left: 300px;
     font-size: larger;
+    text-align: justify;
+    text-align-last: right;
 }
 
 body {
