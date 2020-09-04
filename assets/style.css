@@ -110,8 +110,10 @@ p {
     margin-bottom: 2rem;
 }
 
-.social-media {
-    margin: 10px
+.fab {
+    margin: 10px;
+    margin-bottom: 20px;
+    margin-top: -15px;
 }
 
 .footer {
