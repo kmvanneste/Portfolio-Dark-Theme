@@ -9,6 +9,8 @@
 body {
     font-family: 'Mulish';
     font-size: larger;
+    background-color: black;
+    color: ghostwhite;
 }
 
 .navbar {
@@ -59,11 +61,6 @@ body {
     font-size: larger;
     text-align: justify;
     text-align-last: right;
-}
-
-body {
-    background-color: black;
-    color: ghostwhite;
 }
 
 h1 {
