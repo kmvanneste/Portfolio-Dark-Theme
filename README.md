@@ -4,7 +4,7 @@ This responsive portfolio is a mobile first Bootstrap web application designed t
 
 ## Access
 
-To see the portfolio follow this URL: https://kmvanneste.github.io/Portfolio/
+[Click here to view](https://kmvanneste.github.io/Portfolio/)
 
 ## Content
 
