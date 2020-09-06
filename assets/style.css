@@ -111,10 +111,8 @@ p {
 }
 
 .fab {
-    margin: 10px;
-    margin-bottom: 20px;
-    margin-top: -15px;
-}
+    margin: 5px;
+} 
 
 .footer {
     background: linear-gradient(90deg, black, #6699cc, #a1caf1, #6699cc, black);
