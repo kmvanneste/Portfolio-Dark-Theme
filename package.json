@@ -1,0 +1,24 @@
+{
+  "name": "Portfolio",
+  "version": "1.0.0",
+  "description": "This responsive portfolio is a mobile first Bootstrap web application designed to help me, Kristen Michelle Van Neste, display my coding projects and designs for future employers.",
+  "main": "index.js",
+  "dependencies": {
+    "emailjs-com": "^2.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmvanneste/Portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kmvanneste/Portfolio/issues"
+  },
+  "homepage": "https://github.com/kmvanneste/Portfolio#readme"
+}

@@ -11,6 +11,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
     <title>Kristen Van Neste</title>
+    <!-- Contact Form Scripts -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+           emailjs.init('YOUR_USER_ID');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // generate the contact number value
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('contact_service', 'contact_form', this);
+            });
+        }
+    </script>
 </head>
 
 <body>
@@ -39,11 +56,11 @@
     <div class="row justify-text-center">
         <div class="col-lg-12">
             <div class="card contact_card" style="width: 28rem;">
-                <img src="./assets/sunflower.jpg" class="card-img-top" alt="Image of a dark pink rose">
+                <img src="./assets/sunflower.jpg" class="card-img-top" alt="Image of a sunflower">
                 <div class="card-body">
                     <h5 class="card-title">Contact Me:</h5>
                     <!-- contact form -->
-                    <form action="contact-form-handler.php">
+                    <form id="contact-form">
                         <div class="form-group">
                             <label for="formGroupExampleInput">Name</label>
                             <input name="name" type="text" class="form-control" id="formGroupExampleInput" placeholder="Name">
@@ -58,8 +75,9 @@
                             <textarea name="message" class="form-control" id="exampleFormControlTextarea1" rows="12"
                                 placeholder="Enter message here"></textarea>
                         </div>
+                        <input name="submit" type="submit" value="Send" class="form-control submit btn btn-primary"></input>
                     </form>
-                    <input name="submit" type="submit" class="form-control submit btn btn-primary"></input>
+                    
                 </div>
             </div>
         </div>
