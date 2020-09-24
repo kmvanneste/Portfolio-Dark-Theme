@@ -1,21 +1,27 @@
 # Portfolio
 
-This responsive portfolio is a mobile first Bootstrap web application designed to help me, Kristen Michelle Van Neste, display my coding projects and designs for future employers.
+This responsive portfolio is a mobile first web application designed to help me, Kristen Michelle Van Neste, display my coding projects and web development skills to future employers.
 
-## Access
+## Table of Contents
+1. [Access](#about)
+2. [Content](#content)
+3. [Appearance](#access) 
+4. [Citations](#citations)
 
-[Click here to view](https://kmvanneste.github.io/Portfolio/)
+## Access<a name="about"></a>
 
-## Content
+[Link to the webpage.](https://kmvanneste.github.io/Portfolio/)
+
+## Content<a name="content"></a>
 
  - Professional photograph and personal description.
- - Completed projects and their description.
+ - Completed projects. 
  - Contact information.
 
- Image of the starting page:
+## Appearance<a name="access"></a>
 
- ![image](assets/Webpage_About.png)
+![image](assets/images/Webpage_About.png)
 
-## Citations
+## Citations<a name="citations"></a>
 
-All images are open sourced and available at https://pixabay.com/.
+All images are either taken by me, Kristen, or are open-source and available at https://pixabay.com/.
