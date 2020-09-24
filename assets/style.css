@@ -69,12 +69,21 @@ body {
 
 h1 {
     margin: 20px;
-    font-size: 20pt;
+    /* font-size: 20pt; */
+}
+
+hr {
+    color: whitesmoke;
+    background-color: white;
 }
 
 .sectionHeader {
-    font-size: 20pt;
+    /* font-size: 20pt; */
     text-align: center;
+}
+
+#contactHeader {
+    margin: 20px;
 }
 
 .photoOfKristen {
