@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/badge/License-Unlicensed-blue.svg" align="right"/>
+
 # Portfolio
 
 This responsive portfolio is a mobile first web application designed to help me, Kristen Michelle Van Neste, display my coding projects and web development skills to future employers.
